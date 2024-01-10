@@ -1,0 +1,23 @@
+$breakpoints:(
+  mobile : 0rem, 
+  tablet : 48rem, 
+  desktop: 80rem,
+);
+
+@mixin media($keys...){
+    @each $key in $keys { 
+      @media (min-width: map-get($breakpoints, $key)){
+        @content;
+      } 
+    }
+  }
+
+$color__profile-black:#000000;
+$color__profile-grey:#E4E2E0;
+$color__profile-silver: #AFAFAF;
+$color__profile-blue: #0095FF;
+$color__profile-dark-blue: #0065AD;
+$color__profile-white: #ffff;
+$color__profile-dark-grey:#434444;
+
+

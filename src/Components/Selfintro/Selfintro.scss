@@ -1,0 +1,61 @@
+@import '../../Style/Partial/variables'; // Import your variable styles
+@include media(mobile) {
+.selfintro {
+  background-color: #E4E2E0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  &__question-answer {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+    align-items: left;
+    padding: 2vw;
+    margin-bottom: 20px;
+  }
+
+  &__question {
+    color: $color__profile-black;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__answer {
+    color: $color__profile-dark-grey;
+    span {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 10s steps(70, end);
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; // Adjust width as needed
+    }
+  }
+}
+}
+
+@include media(tablet){
+  .selfintro {
+    width: 50%;
+    height: fit-content;
+    &__question-answer {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      justify-content: center;
+      align-items: left;
+      padding: 2vw;
+      margin-bottom: 20px;
+    }
+  }
+
+}
