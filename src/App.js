@@ -6,7 +6,6 @@ import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Contacts from "./Components/Contact/Contact";
 import Header from "./Components/Header/Header";
-import Selfintro from"./Components/Selfintro/Selfintro"
 import "./App.scss";  
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<div ><Profile /></div>} />
-        <Route path="/profile" element={<div ><Selfintro /></div>} />
+        <Route path="/profile" element={<div ><Profile /></div>} />
         <Route path="/skills" element={<div ><Skills /></div>} />
         <Route path="/experience" element={<div ><Experience /></div>} />
         <Route path="/contacts" element={<div><Contacts /></div>} />

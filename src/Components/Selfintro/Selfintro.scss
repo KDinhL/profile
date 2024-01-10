@@ -1,7 +1,7 @@
 @import '../../Style/Partial/variables'; // Import your variable styles
 @include media(mobile) {
 .selfintro {
-  background-color: #E4E2E0;
+  background-color: $color__profile-grey;
   display: flex;
   flex-direction: column;
   width: 100vw;

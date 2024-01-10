@@ -1,32 +1,17 @@
-@use '../../Style/Partial/variables' as *;
+@import '../../Style/Partial/variables'; // Import your variable styles
 
-@include media(mobile) {    
-    .project {
-      background-color: $color__profile-grey;
-        width: 100vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-
-      
-        &__info {
-          padding: 1rem;
-      
-          p {
-            color: $color__profile-black;
-            font-size: 1rem;
-          }
-        }
-      }
+@include media(mobile) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    
+  }
 }
 
 @include media(tablet) {
-  .project {
-    width: 100vw;
+  .projects {
     display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-height: 100%;
+    flex-direction: row;
+    
   }
 }

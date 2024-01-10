@@ -1,0 +1,13 @@
+.video-player {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 50px solid $color__profile-dark-grey;
+    box-shadow: 0px 0px 500px rgba(0, 0, 0, 0.1);  // Add this line for a box shadow
+ 
+    .react-player {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
