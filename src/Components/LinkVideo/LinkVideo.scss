@@ -1,0 +1,13 @@
+@import '../../Style/Partial/variables'; // Import your variable styles
+
+.link-video {
+  cursor: pointer;
+  padding: 10px;
+  background-color: $color__profile-blue;
+  color: $color__profile-white;
+  text-align: center;
+
+  &:hover {
+    background-color: $color__profile-dark-blue;
+  }
+}

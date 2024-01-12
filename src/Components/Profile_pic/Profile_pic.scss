@@ -2,7 +2,9 @@
 
 @include media(mobile) {    
     .profile_pic {
-        width: 100vw;
+      background-color: $color__profile-grey;
+      height: 100%;
+      width: 100vw;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -29,6 +31,7 @@
 }
 @include media(tablet){
     .profile_pic {
+
         width: 50%;
       display: flex;
       justify-content: flex-start;

@@ -4,7 +4,7 @@
   .projects {
     display: flex;
     flex-direction: column;
-    
+    height: 100%;
   }
 }
 
@@ -12,6 +12,5 @@
   .projects {
     display: flex;
     flex-direction: row;
-    
   }
 }

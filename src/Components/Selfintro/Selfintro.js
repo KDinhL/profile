@@ -30,13 +30,19 @@ export default function Selfintro() {
           </Typography>
           <Fade in={true} timeout={1000 * (index + 1)}>
             <Typography variant="body1" className="selfintro__answer">
-              {item.answer}
+              {item.answer.split("BrainStation").map((part, i, arr) => (
+                i !== arr.length - 1 ? (
+                  <React.Fragment key={i}>
+                    {part}
+                    <a href="https://brainstation.io/" target="_blank" rel="noopener noreferrer">BrainStation</a>
+                  </React.Fragment>
+                ) : part
+              ))}
             </Typography>
           </Fade>
         </div>
       ))}
 
-      {/* Status Section */}
     </div>
   );
 }

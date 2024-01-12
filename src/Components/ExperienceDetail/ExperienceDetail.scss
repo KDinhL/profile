@@ -1,0 +1,95 @@
+@import '../../Style/Partial/variables'; // Import your variable styles
+
+@include media(mobile) {
+    .experience-detail {
+        display: flex;
+        flex-direction: column;
+        background-color: $color__profile-grey;
+
+        .experience-item {
+            margin-bottom: 20px;
+            padding: 6px;
+
+            .company-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+
+                .company-logo {
+                    width: 50%;
+                    max-width: 150px;
+                    /* Adjust the max-width as needed */
+                }
+
+                .experience-title {
+                    font-size: 1.5rem;
+                    margin-top: 10px;
+                    margin-right: 0;
+                }
+            }
+
+            .experience-duration {
+                font-size: 1rem;
+                margin-top: 5px;
+            }
+
+            .experience-description {
+                font-size: 1rem;
+                margin-top: 10px;
+            }
+
+            .experience-skills {
+                font-size: 0.8rem;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+@include media(tablet) {
+    .experience-detail {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+
+        .experience-item {
+            margin-bottom: 20px;
+
+            .company-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+
+                .company-logo {
+                    width: 50%;
+                    max-width: 150px;
+                    /* Adjust the max-width as needed */
+                    margin-right: 10px;
+                    /* Add margin for spacing */
+                }
+
+                .experience-title {
+                    font-size: 1.5rem;
+                    margin-top: 10px;
+                }
+            }
+
+            .experience-duration {
+                font-size: 1rem;
+                margin-top: 5px;
+            }
+
+            .experience-description {
+                font-size: 1rem;
+                margin-top: 10px;
+            }
+
+            .experience-skills {
+                font-size: 0.8rem;
+                margin-top: 5px;
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@ import Experience from "./Pages/Experience/Experience";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Contacts from "./Components/Contact/Contact";
+import Achievement from "./Pages/Achievement/Achievement";
 import Header from "./Components/Header/Header";
 import "./App.scss";  
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/experience" element={<div ><Experience /></div>} />
         <Route path="/contacts" element={<div><Contacts /></div>} />
         <Route path="/projects" element={<div><Projects /></div>} />
+        <Route path="/achievement" element={<div><Achievement /></div>} />
       </Routes>
     </BrowserRouter>
     </div>

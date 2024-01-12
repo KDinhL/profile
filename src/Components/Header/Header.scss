@@ -6,14 +6,17 @@
     background-color: $color__profile-dark-blue;
     color: $color__profile-white;
     height: fit-content;
-    width: 100vw;
+    width: 98.5vw;
+    padding-left: .8vw;
+    padding-right: 1vw;
 
     .mobile-nav {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
 
       a {
         text-decoration: none;
@@ -25,4 +28,19 @@
     }
   
 }
+}
+@include media(smalldesktop) {
+  .header {
+    width: 99vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+  }
+}
+
+@include media(desktop) {
+  .header {
+    width: 98vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+  }
 }

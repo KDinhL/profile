@@ -1,7 +1,8 @@
 $breakpoints:(
   mobile : 0rem, 
   tablet : 48rem, 
-  desktop: 80rem,
+  desktop: 105rem,
+  smalldesktop:99rem,
 );
 
 @mixin media($keys...){
