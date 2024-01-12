@@ -4,7 +4,7 @@ import Profile from "./Pages/Profile/Profile";
 import Experience from "./Pages/Experience/Experience";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
-import Contacts from "./Components/Contact/Contact";
+import Contacts from "./Pages/Contact/Contact";
 import Achievement from "./Pages/Achievement/Achievement";
 import Header from "./Components/Header/Header";
 import "./App.scss";  

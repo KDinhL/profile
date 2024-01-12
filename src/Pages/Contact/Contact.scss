@@ -1,7 +1,7 @@
 @use '../../Style/Partial/variables' as *;
 
 @include media(mobile) {    
-    .achievement {
+    .contact {
         background-color: $color__profile-grey; // Use your variable for background color
         width: 100vw;
       display: flex;
@@ -22,7 +22,7 @@
 }
 
 @include media(tablet) {
-  .achievement {
+  .contact {
     width: 98.5vw;
     display: flex;
   flex-direction: row;

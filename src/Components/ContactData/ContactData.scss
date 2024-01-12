@@ -1,0 +1,51 @@
+@import '../../Style/Partial/variables'; // Import your variable styles
+@include media(mobile) {
+
+
+    
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color__profile-dark-blue;
+    }
+
+    .contact-icon {
+      width: 30px; // Adjust the size as needed
+      height: 30px; // Adjust the size as needed
+      margin-right: 10px;
+    }
+
+    .contact-type {
+      color: $color__profile-black;
+    }
+
+    .contact-info {
+      color: $color__profile-dark-grey;
+    }
+  }
+
+}
+
+  @include media(tablet) {
+    .contact-data {
+        width: fit-content;
+
+    }
+    .contact-item {
+        width: fit-content;
+        justify-content: space-between;
+    }
+  }
+}
