@@ -14,11 +14,6 @@ export default function Selfintro() {
       answer:
         "Proficient in Data Analysis, Full-Stack Development, Team Support, Troubleshooting, and quick adaptability to dynamic environments."
     },
-    {
-      question: "Am I good enough?",
-      answer:
-        "While I can't guarantee meeting your expectations from the outset, I am dedicated to giving my best effort. As W. Bruce Cameron aptly puts it, 'Failure is not an option if success is just a matter of trying harder.' This quote resonates with my commitment to continuous improvement and resilience in the face of challenges."
-    }
   ];
 
   return (
