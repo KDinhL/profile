@@ -6,7 +6,8 @@ import ProjectsDisplay from"../../Components/ProjectsDisplay/ProjectsDisplay"
 export default function Profile() {
   return (
     <div className="projects">
-     <Profile_pic />
+       {/* eslint-disable-next-line react/jsx-pascal-case */}
+<Profile_pic />
      <ProjectsDisplay/>
     </div>
   );

@@ -7,7 +7,8 @@ import Profile_pic from "../../Components/Profile_pic/Profile_pic"
 export default function Experience() {
   return (
     <div className="experience">
-      <Profile_pic />
+        {/* eslint-disable-next-line react/jsx-pascal-case */}
+<Profile_pic />
       <ExperienceDetail />
     </div>
   );

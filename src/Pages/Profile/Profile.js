@@ -6,7 +6,8 @@ import Profile_pic from "../../Components/Profile_pic/Profile_pic"
 export default function Profile() {
   return (
     <div className="profile">
-     <Profile_pic />
+       {/* eslint-disable-next-line react/jsx-pascal-case */}
+<Profile_pic />
       <Selfintro />
     </div>
   );

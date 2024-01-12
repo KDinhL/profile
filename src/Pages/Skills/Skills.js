@@ -7,7 +7,8 @@ import Ability from "../../Components/Ability/Ability"
 export default function Skills() {
   return (
     <div className="skills">
-     <Profile_pic />
+       {/* eslint-disable-next-line react/jsx-pascal-case */}
+<Profile_pic />
      <Ability />
     </div>
   );

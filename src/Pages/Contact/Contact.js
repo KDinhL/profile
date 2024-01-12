@@ -6,7 +6,8 @@ import ContactData from"../../Components/ContactData/ContactData"
 export default function Contact() {
   return (
     <div className="contact">
-     <Profile_pic />
+       {/* eslint-disable-next-line react/jsx-pascal-case */}
+<Profile_pic />
      <ContactData/>
     </div>
   );
