@@ -1,0 +1,73 @@
+@use '../../Style/Partial/variables' as *;
+
+// Define a common height for all images
+$imageHeight: 40px;
+
+// Media queries for mobile
+@include media(mobile) {
+  .ability {
+    &-category {
+        background-color: $color__profile-white ;
+        border: 10px solid $color__profile-grey ;
+padding: 10px 10px;
+      h2 {
+        font-size: 1.5rem; // Adjust font size for mobile
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          width: fit-content;
+          margin-bottom: 10px;
+          padding-right: 20px;
+
+          img {
+            height: $imageHeight;
+            margin-right: 10px;
+          }
+
+          p {
+            font-size: 0.9rem; // Adjust font size for mobile
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media queries for tablet
+@include media(tablet) {
+  .ability {
+    width: 40vw;
+    &-category {
+      ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            display: flex;
+            width: fit-content;
+          margin-bottom: 15px;
+
+          img {
+            height: $imageHeight;
+            width: auto;
+            margin-right: 15px;
+          }
+
+          p {
+            font-size: 1rem; // Adjust font size for tablet
+          }
+        }
+      }
+    }
+  }
+}
