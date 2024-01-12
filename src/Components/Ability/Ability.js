@@ -100,7 +100,7 @@ const Ability = () => {
 
         },
         {
-            Type: "Mechnical Software",
+            Type: "Mechanical Software",
             Skills: [
                 {
                     Icon: AutoCAD,
