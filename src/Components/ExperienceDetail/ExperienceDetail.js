@@ -32,8 +32,8 @@ export default function ExperienceDetail() {
     {
         company: "Camcor Manufacturing",
         title: "Robotics and Automation (Intership)",
-        startTime: "Sep-2021",
-        endTime: "Dec-2022",
+        startTime: "Sep-2020",
+        endTime: "Dec-2020",
         jobDescription:
           "During my four-month term at Camcor Manufacturing from September to December 2020, I was assigned to Robotics and Automation tasks. My responsibilities included designing tooling to detect misloaded parts, creating documentation for machinery, generating purchase requisitions, configuring device addressing, and updating PLC/HMI programs. I also gained hands-on experience in the mechanical build of equipment during this period.",
         skills:
