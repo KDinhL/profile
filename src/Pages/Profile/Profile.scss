@@ -1,32 +1,46 @@
 @use '../../Style/Partial/variables' as *;
 
-@include media(mobile) {    
-    .profile {
-      background-color: $color__profile-grey;
-        width: 100vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+@include media(mobile) {
+  .profile {
+    background-color: $color__profile-grey;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-      
-        &__info {
-          padding: 1rem;
-      
-          p {
-            color: $color__profile-black;
-            font-size: 1rem;
-          }
-        }
+    .desktop-and-tablet-only {
+      display: none;
+    }
+
+    &__info {
+      padding: 1rem;
+
+      p {
+        color: $color__profile-black;
+        font-size: 1rem;
       }
+    }
+  }
 }
 
 @include media(tablet) {
   .profile {
     width: 100vw;
     display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-height: 100vh;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+
+    .desktop-and-tablet {
+      display: flex;
+      flex-direction: column;
+      width:50vw;
+    }
+
+    .desktop-and-tablet-only {
+      display: flex;
+      width: fit-content;
+    }
   }
 }

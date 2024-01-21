@@ -9,7 +9,7 @@ export default function Header() {
         <Link to="/">Profile</Link>
         <Link to="/skills">Skills</Link>
         <Link to="/experience">Experience</Link>
-        <Link to="/contacts">Contacts</Link>
+        <Link to="/contacts" className="mobile-only">Contacts</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/achievement">Achievement</Link>
 

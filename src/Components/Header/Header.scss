@@ -29,11 +29,24 @@
   
 }
 }
+
+@include media(tablet) {
+  .header {
+    .mobile-only {
+      display: none;
+    }
+  }
+
+}
+
 @include media(smalldesktop) {
   .header {
     width: 99vw;
     padding-left: .5vw;
     padding-right: .5vw;
+    .mobile-only {
+      display: none;
+    }
   }
 }
 
@@ -42,5 +55,8 @@
     width: 98vw;
     padding-left: .5vw;
     padding-right: .5vw;
+    .mobile-only {
+      display: none;
+    }
   }
 }

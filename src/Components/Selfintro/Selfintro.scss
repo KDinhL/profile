@@ -45,7 +45,7 @@
 
 @include media(tablet){
   .selfintro {
-    width: 50%;
+    width: fit-content;
     height: fit-content;
     &__question-answer {
       display: flex;
