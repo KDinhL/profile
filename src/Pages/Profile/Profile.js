@@ -7,6 +7,7 @@ import ContactData from "../../Components/ContactData/ContactData"; // Import Co
 export default function Profile() {
   return (
     <div className="profile">
+      {/* eslint-disable-next-line */}
       <Profile_pic />
       <div className="desktop-and-tablet">
       <Selfintro />
