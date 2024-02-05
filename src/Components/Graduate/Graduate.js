@@ -39,7 +39,7 @@ export default function Education() {
       College: "Conestoga College",
       Program: "Mechanical Engineering Technology - Automated Manufacturing (Optional Co-op)",
       Degree: "Diploma",
-      startTime: "Sep-2016",
+      startTime: "Sep-2015",
       endTime: "Sep-2018",
       Description:
         "The Diploma in Mechanical Engineering Technology offers students a comprehensive education in modern industrial practices, focusing on manufacturing procedures, design, computer-aided manufacturing, and industrial robotics. The program prepares students for diverse careers, including additive manufacturing, robotics systems, 3D CAD, numerical control machine programming, industry 4.0, and industrial engineering. Through hands-on projects and a co-op option, students gain practical experience in solving real-world automated manufacturing problems. The curriculum emphasizes the integration of standard manufacturing processes with computer-aided manufacturing and the use of industrial automation equipment. Effective communication skills, both linguistic and graphic, are emphasized, and the program is conditionally recognized by OACETT for meeting academic requirements for Certified Engineering Technologist (CET) certification.",

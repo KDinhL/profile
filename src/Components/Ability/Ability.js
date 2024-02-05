@@ -144,7 +144,7 @@ const Ability = () => {
             Type: "Certificate",
             Skills:
             
-                "Website Development (From BrainStation), CSWA (Certified SOLIDWORKS Associate) (Certificate from SOLIDWORKS)",
+                "Website Development (From BrainStation), CSWA (Certified SOLIDWORKS Associate)",
         },
 
     ];
