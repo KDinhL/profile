@@ -7,7 +7,7 @@ export default function Selfintro() {
   const questionAnswerData = [
     {
       question: "Who am I?",
-      answer: "My name is Dinh Kien Ly. I have a Mechanical Engineering background and have honed my project troubleshooting and data analysis skills. I have successfully completed BrainStation's Software Engineering Bootcamp and developed my skills in programming (HTML, SASS, JavaScript, Node.js, React, and GitHub). I'm eager to apply my engineering background and newly acquired software skills in my future role, creating valuable contributions."
+      answer: "My name is Dinh Kien Ly. I have a Mechanical Engineer background and have honed my project troubleshooting and data analysis skills. I have successfully completed BrainStation's Software Engineering Bootcamp and developed my skills in programming. Combining my engineering background with skills developed through the Bootcamp, I am eager to apply my multidisciplinary expertise in a role that allows me to make valuable contributions."
     },
     {
       question: "What I can do?",
